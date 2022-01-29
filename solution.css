@@ -1,0 +1,133 @@
+header{
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	font-size: x-large;
+}
+@media (min-width:991px ){
+#gdiv {
+	width: 30%;
+	background: gray;
+	border: black solid;
+	padding-top: 0px;	
+}
+#pdivu{
+	padding: 15px;
+}
+section{
+	display: flex;
+	justify-content: space-between;	
+}
+
+#pdiv{
+	width: 80px;
+	border-left: black solid;
+	border-bottom: black solid;
+	margin-bottom: 16px;
+	text-align: center;
+	float: right;
+}
+.sushi{
+	background: pink;
+}
+.beef{
+	background: yellow;	
+}
+.chicken{
+	background: red;
+	color: white;
+}
+}
+@media (min-width:767px) and (max-width: 991px){
+section{
+	width: 90%;
+	flex-wrap: wrap;
+	align-items: flex-end ;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.chii {
+	width: 95.5%;
+	background: gray;
+	border: black solid;
+	padding-top: 0px;
+	margin-bottom: 36px;
+}
+.chi {
+	background: gray;
+	border: black solid;
+	margin-bottom: 39px;
+	width: 45%;
+	float: right;
+	margin: auto;
+}
+#gdiv{
+	margin: 15px;
+	overflow: auto;
+}
+#pdivu{
+	padding: 15px;
+}
+
+#pdiv{
+	width: 80px;
+	border-left: black solid;
+	border-bottom: black solid;
+	margin-bottom: 16px;
+	text-align: center;
+	float: right;
+
+}
+
+.sushi{
+	background: pink;
+}
+
+.beef{
+	background: yellow;	
+}
+
+.chicken{
+	background: red;
+	color: white;
+}
+
+}
+@media (max-width:767px){
+#gdiv {
+	width: 90%;
+	background: gray;
+	border: black solid;
+	padding-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+}	
+
+#pdivu{
+	padding: 15px;
+}
+
+
+#pdiv{
+	width: 80px;
+	border-left: black solid;
+	border-bottom: black solid;
+	margin-bottom: 16px;
+	text-align: center;
+	float: right;
+}
+.sushi{
+	background: pink;
+}
+.beef{
+	background: yellow;	
+}
+.chicken{
+	background: red;
+	color: white;
+}
+
+}
+
